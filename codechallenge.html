@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/colorpicker.css">
+    <script src="/js/colorpicker.js"></script>
+</head>
+<body>
+    <h1>Color Picker</h1>
+    <button onclick ="randomcolor()">Generate Random Color</button>
+    <button onclick="showHex()">Show Hex</button>
+    <input type="text" id="hexvalue">
+    <button onclick="copy()">Copy</button>
+    <br>
+    <h3>Change Color of the Box to Gradient:</h3>
+    <div id="container"></div>
+    <p>Please copy Hex Color for 2 Colors of Gradient</p>
+    <label>Color 1</label>
+    <input type="text" id="color1">
+    <label>Color 2</label>
+    <input type="text" id="color2">
+    <button onclick="changegradient()">Change</button>
+</body>
+</html>
